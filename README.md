@@ -31,7 +31,7 @@ I build small models, deterministic agentic workflows, and resilient backends th
 
 ### [03] VERIFIED DOSSIER & CONNECT
 
-- **Portfolio Hub:** [asimansari.com](https://asimansari.com)
+- **Web Hub:** [asimansari.com](https://asimansari.com)
 - **LinkedIn:** [@asimibnakhlaque](https://linkedin.com/in/asimibnakhlaque)
 - **Research Monographs:** [asimansari.com/blogs](https://asimansari.com/blogs/index.html)
 - **Email:** [asimibnakhlaque@gmail.com](mailto:asimibnakhlaque@gmail.com)
