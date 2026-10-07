@@ -1,37 +1,47 @@
 # ASIM ANSARI
-### SYSTEMS // AUTONOMOUS AGENTS // MODEL DISTILLATION
 
-```text
-STATUS     :: ACTIVE // AI SYSTEMS RESEARCH & ENGINEERING
-PORTFOLIO  :: https://asimansari.com
-FOCUS      :: SUB-1B SLM DISTILLATION · CYCLIC STATEGRAPHS · HIGH-THROUGHPUT BACKENDS
+### AI SYSTEMS // EDGE SLMS // LINUX & BACKENDS
+
+```yaml
+STATUS :: ACTIVE // AI SYSTEMS & SOFTWARE ENGINEERING
+DOMAIN :: https://asimansari.com
+FOCUS  :: SUB-1B SLM FINE-TUNING · AUTONOMOUS OS AGENTS · MULTIMODAL INGESTION · FASTAPI BACKENDS
 ```
 
 ---
 
-### [01] ARCHITECTURAL PHILOSOPHY
+### [01] WHAT I BUILD
 
-I build small models, deterministic agentic workflows, and resilient backends that run close to the metal. 
+I build small models that do real work, offline execution engines, and practical backends.
 
-- **Cyclic State Machines Over Linear Chains:** Linear pipelines fail under real-world tool uncertainty. I architect autonomous systems using LangGraph, discrete state machines, explicit state reducers, and bounded self-correction loops.
-- **Edge Model Distillation:** Distilling multi-turn synthetic action traces into Sub-1B models (`SmolLM2-360M`, `Qwen2.5-0.5B`) executing locally on commodity CPU hardware with zero framework bloat.
-- **Deterministic Knowledge Retrieval:** Grounded hybrid RAG combining ChromaDB dense vectors with Okapi BM25 and AST knowledge graph walks, enforced with sandboxed execution.
-- **Resilient Backend Foundations:** High-throughput transactional architectures engineered with Java 21 / Spring Boot 3 Virtual Threads and .NET 9 Clean Architecture.
-
----
-
-### [02] TECHNICAL SPECIFICATIONS
-
-- **Agentic AI & SLMs:** LangChain, LangGraph (Cyclic Graphs, Checkpointing, State Reducers), Google GenAI SDK, SLM Distillation, RAG (MMR & Dense/Sparse Hybrid), Unsloth.
-- **Languages:** Python (FastAPI, AsyncIO, PyTorch), Java (Java 21, Spring Boot 3), C / C++, C# (.NET 9).
-- **Databases & Vector Stores:** PostgreSQL, SQLite (FTS5 BM25), MongoDB, ChromaDB.
-- **Runtime & Infrastructure:** Linux / POSIX, Podman / Docker, GGUF CPU inference, Git.
+- **SLM Fine-Tuning for Structured Reasoning:** Teaching non-tool-calling base models to autonomously emit structured `<think>...</think>` internal reasoning traces and `<tool>...</tool>` execution blocks without heavy orchestration wrappers.
+- **Offline OS Execution Engines:** Architect of **NanoHat OS Agent (v3.1.0)**, an offline Linux agent powered by FunctionGemma 270M that maps natural language directly to systemctl, network, and hardware telemetry on commodity CPU hardware.
+- **Multimodal Document & Receipt Ingestion:** Designing end-to-end extraction systems using Gemini Multimodal vision to deconstruct unstructured receipts and PDFs into strict line-item schemas and relational ledgers.
+- **Async Backend Services:** Building reliable data services and APIs using FastAPI, PostgreSQL, MongoDB, and ChromaDB vector retrieval, alongside battle-tested C# / ASP.NET Core and Java / Spring Boot foundations.
 
 ---
 
-### [03] VERIFIED DOSSIER & CONNECT
+### [02] FLAGSHIP PROJECTS
 
-- **Web Hub:** [asimansari.com](https://asimansari.com)
-- **LinkedIn:** [@asimibnakhlaque](https://linkedin.com/in/asimibnakhlaque)
-- **Research Monographs:** [asimansari.com/blogs](https://asimansari.com/blogs/index.html)
-- **Email:** [asimibnakhlaque@gmail.com](mailto:asimibnakhlaque@gmail.com)
+- **NanoHat OS Agent (v3.1.0):** Autonomous edge Linux OS agent running locally on Fedora Workstation. Powered by FunctionGemma 270M with a zero-bloat Python runtime, driving 6 native system tools (`system_health`, `power_profile`, `toggle_wifi`, `toggle_bluetooth`, `service_status`, `restart_service`) with Wayland session protection.
+- **Teaching Loop:** Multi-user interactive AI tutoring and evaluation platform featuring dynamic Socratic dialogue, Gemini Flash integration, ChromaDB MMR vector retrieval over uploaded courseware, and Streamlit dashboards.
+- **BillProds AI:** Granular product ledger and offline-first expense intelligence platform powered by FastAPI, PostgreSQL, and an offline-ready PWA client, converting physical receipts into itemized SKU catalogs.
+
+---
+
+### [03] CORE STACK & CAPABILITIES
+
+- **Models & Fine-Tuning:** SLM Fine-Tuning (SmolLM2, Qwen, FunctionGemma), Token Formatting (`<think>` / `<tool>` synthetic data injection), QLoRA, GGUF CPU inference, Ollama.
+- **Backend & APIs:** Python (FastAPI, SQLAlchemy), Java (Spring Boot), C# (ASP.NET Core), C/C++.
+- **Data & Retrieval:** PostgreSQL, SQLite, MongoDB, ChromaDB (Vector Embeddings & MMR Retrieval).
+- **Systems & Tooling:** Linux (Fedora Workstation), systemd unit management, Podman / Docker.
+- **Prototyping & UIs:** Streamlit, rapid PWA prototyping.
+
+---
+
+### [04] CONNECT
+
+- **Domain:** [asimansari.com](https://asimansari.com)
+- **LinkedIn:** [linkedin.com/in/link-asimansari](https://linkedin.com/in/link-asimansari)
+- **Technical Articles:** [asimansari.com/blogs](https://asimansari.com/blogs)
+- **Email:** asimansari.mail@proton.me
