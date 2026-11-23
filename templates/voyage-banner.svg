@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="185" viewBox="0 0 920 185" role="img" aria-label="My Grand Line Voyage — Thousand Sunny">
+  <defs>
+    <linearGradient id="voyageBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#0c1929"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <radialGradient id="sunnyGlow" cx="50%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.34"/>
+      <stop offset="55%" stop-color="#fbbf24" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, Menlo, monospace; }
+    @keyframes shipSail {
+      0%, 100% { transform: translateY(0px) rotate(-1.5deg); }
+      50% { transform: translateY(-5px) rotate(1.5deg); }
+    }
+    .sunny { transform-origin: 460px 62px; animation: shipSail 3.6s ease-in-out infinite; }
+  </style>
+
+  <rect width="920" height="185" fill="#0d1117"/>
+  <rect x="4" y="4" width="912" height="177" rx="16" fill="url(#voyageBg)" stroke="#30363d" stroke-width="1.2"/>
+
+  <!-- Subtle Horizon Glow & Wave Line -->
+  <ellipse cx="460" cy="70" rx="160" ry="62" fill="url(#sunnyGlow)"/>
+  <line x1="120" y1="112" x2="800" y2="112" stroke="url(#waveGrad)" stroke-width="1.2"/>
+
+  <!-- Animated Thousand Sunny -->
+  <g class="sunny">
+    <image href="{{IMG_THOUSAND_SUNNY}}" x="394" y="10" width="132" height="104" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+  <!-- Title & Subtitle -->
+  <text x="460" y="142" text-anchor="middle" class="sans" font-size="22" font-weight="800" fill="#f8fafc">⛵ My Grand Line Voyage</text>
+  <text x="460" y="164" text-anchor="middle" class="mono" font-size="11" fill="#94a3b8">Every commit charts another island — automatically updated daily.</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="122" viewBox="0 0 920 122" role="img" aria-label="Full 10-Member Straw Hat Crew Animated Strip">
+  <defs>
+    <linearGradient id="stripBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#131826"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="stripBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#fbbf24" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, Menlo, monospace; }
+    @keyframes crewBob {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-5px); }
+    }
+    .c1 { animation: crewBob 2.4s ease-in-out 0.0s infinite; }
+    .c2 { animation: crewBob 2.4s ease-in-out 0.22s infinite; }
+    .c3 { animation: crewBob 2.4s ease-in-out 0.44s infinite; }
+    .c4 { animation: crewBob 2.4s ease-in-out 0.66s infinite; }
+    .c5 { animation: crewBob 2.4s ease-in-out 0.88s infinite; }
+    .c6 { animation: crewBob 2.4s ease-in-out 1.10s infinite; }
+    .c7 { animation: crewBob 2.4s ease-in-out 1.32s infinite; }
+    .c8 { animation: crewBob 2.4s ease-in-out 1.54s infinite; }
+    .c9 { animation: crewBob 2.4s ease-in-out 1.76s infinite; }
+    .c10 { animation: crewBob 2.4s ease-in-out 1.98s infinite; }
+  </style>
+
+  <rect width="920" height="122" fill="#0d1117"/>
+  <rect x="4" y="4" width="912" height="114" rx="14" fill="url(#stripBg)" stroke="url(#stripBorder)" stroke-width="1.2"/>
+
+  <!-- Subtle Header Telemetry -->
+  <text x="20" y="19" class="mono" font-size="8.5" fill="#64748b" letter-spacing="1.2">STRAW HAT CREW // 10/10 ABOARD</text>
+  <text x="900" y="19" text-anchor="end" class="mono" font-size="8.5" fill="#fbbf24" fill-opacity="0.7" letter-spacing="1">GRAND LINE FLEET</text>
+
+  <!-- 10 Staggered Bobbing Chibi Sprites (centers at 56, 146, 236, 326, 416, 506, 596, 686, 776, 866) -->
+  <g class="c1">
+    <image href="{{IMG_CHIBI_LUFFY}}" x="24" y="24" width="64" height="66" preserveAspectRatio="xMidYMax meet"/>
+  </g>
+  <text x="56" y="106" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#ef4444">LUFFY</text>
+
+  <g class="c2">
+    <image href="{{IMG_CHIBI_ZORO}}" x="114" y="24" width="64" height="66" preserveAspectRatio="xMidYMax meet"/>
+  </g>
+  <text x="146" y="106" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#4ade80">ZORO</text>
+
+  <g class="c3">
+    <image href="{{IMG_CHIBI_NAMI}}" x="204" y="24" width="64" height="66" preserveAspectRatio="xMidYMax meet"/>
+  </g>
+  <text x="236" y="106" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#fb923c">NAMI</text>
+
+  <g class="c4">
+    <image href="{{IMG_CHIBI_USOPP}}" x="294" y="24" width="64" height="66" preserveAspectRatio="xMidYMax meet"/>
+  </g>
+  <text x="326" y="106" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#facc15">USOPP</text>
+
+  <g class="c5">
+    <image href="{{IMG_CHIBI_SANJI}}" x="384" y="24" width="64" height="66" preserveAspectRatio="xMidYMax meet"/>
+  </g>
+  <text x="416" y="106" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#fbbf24">SANJI</text>
+
+  <g class="c6">
+    <image href="{{IMG_CHIBI_CHOPPER}}" x="474" y="28" width="64" height="62" preserveAspectRatio="xMidYMax meet"/>
+  </g>
+  <text x="506" y="106" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#f472b6">CHOPPER</text>
+
+  <g class="c7">
+    <image href="{{IMG_CHIBI_ROBIN}}" x="564" y="24" width="64" height="66" preserveAspectRatio="xMidYMax meet"/>
+  </g>
+  <text x="596" y="106" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#c084fc">ROBIN</text>
+
+  <g class="c8">
+    <image href="{{IMG_CHIBI_FRANKY}}" x="654" y="24" width="64" height="66" preserveAspectRatio="xMidYMax meet"/>
+  </g>
+  <text x="686" y="106" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#38bdf8">FRANKY</text>
+
+  <g class="c9">
+    <image href="{{IMG_CHIBI_BROOK}}" x="744" y="22" width="64" height="68" preserveAspectRatio="xMidYMax meet"/>
+  </g>
+  <text x="776" y="106" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#e2e8f0">BROOK</text>
+
+  <g class="c10">
+    <image href="{{IMG_CHIBI_JINBE}}" x="834" y="24" width="64" height="66" preserveAspectRatio="xMidYMax meet"/>
+  </g>
+  <text x="866" y="106" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#60a5fa">JINBE</text>
+</svg>

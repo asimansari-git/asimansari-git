@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="365" viewBox="0 0 920 365" role="img" aria-label="Tools I Fight With — Tech Stack Arsenal">
+  <defs>
+    <linearGradient id="toolsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#131826"/>
+      <stop offset="100%" stop-color="#171324"/>
+    </linearGradient>
+    <linearGradient id="devilBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.75"/>
+    </linearGradient>
+    <radialGradient id="robinGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.4"/>
+      <stop offset="55%" stop-color="#38bdf8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="gridTools" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.9" fill="#e6edf3" fill-opacity="0.04"/>
+    </pattern>
+    <clipPath id="toolsClip">
+      <rect x="4" y="4" width="912" height="357" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, Menlo, monospace; }
+    @keyframes petalPulse {
+      0%, 100% { opacity: 0.72; }
+      50% { opacity: 1; }
+    }
+    .robin-aura { animation: petalPulse 3.6s ease-in-out infinite; }
+  </style>
+
+  <rect width="920" height="365" fill="#0d1117"/>
+
+  <g clip-path="url(#toolsClip)">
+    <rect x="4" y="4" width="912" height="357" rx="16" fill="url(#toolsBg)"/>
+    <rect x="4" y="4" width="912" height="357" fill="url(#gridTools)"/>
+
+    <!-- Left Panel: Nico Robin inside Glowing Devil Fruit Border -->
+    <rect x="18" y="18" width="242" height="329" rx="12" fill="#0d1117" fill-opacity="0.78" stroke="url(#devilBorder)" stroke-width="1.4"/>
+    <circle class="robin-aura" cx="139" cy="176" r="115" fill="url(#robinGlow)"/>
+
+    <text x="139" y="38" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#c084fc" letter-spacing="1.4">DEVIL FRUIT ARSENAL</text>
+    <image href="{{IMG_NICO_ROBIN}}" x="28" y="46" width="222" height="272" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="44" y="318" width="190" height="20" rx="10" fill="#161b22" stroke="#a855f7" stroke-width="0.9" stroke-opacity="0.5"/>
+    <text x="139" y="331.5" text-anchor="middle" class="mono" font-size="8.8" fill="#d8b4fe" letter-spacing="0.8">ROBIN // HANA HANA NO MI</text>
+
+    <!-- Right Panel Header + Usopp Precision Tooling Badge -->
+    <text x="284" y="40" class="mono" font-size="10.5" font-weight="700" fill="#c084fc" letter-spacing="1.2">🔥 [03] CORE STACK &amp; CAPABILITIES</text>
+    <text x="284" y="70" class="sans" font-size="25" font-weight="800" fill="#f8fafc">Tools I fight with</text>
+
+    <!-- Usopp Precision Tooling Mini-Badge (Top Right) -->
+    <rect x="742" y="20" width="156" height="52" rx="10" fill="#161b22" stroke="#fbbf24" stroke-width="1" stroke-opacity="0.4"/>
+    <image href="{{IMG_CHIBI_USOPP}}" x="748" y="24" width="38" height="44" preserveAspectRatio="xMidYMid meet"/>
+    <text x="792" y="42" class="mono" font-size="9" font-weight="700" fill="#fbbf24">USOPP WORKSHOP</text>
+    <text x="792" y="57" class="mono" font-size="8.5" fill="#94a3b8">PRECISION TOOLING</text>
+
+    <!-- Category 1: Models & Fine-Tuning -->
+    <text x="284" y="102" class="mono" font-size="10" font-weight="700" fill="#fbbf24" letter-spacing="1">MODELS &amp; FINE-TUNING</text>
+    <g transform="translate(284, 110)">
+      <rect x="0" y="0" width="76" height="26" rx="6" fill="#161b22" stroke="#fbbf24" stroke-opacity="0.45"/>
+      <text x="38" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#fef3c7">SmolLM2</text>
+
+      <rect x="84" y="0" width="56" height="26" rx="6" fill="#161b22" stroke="#fbbf24" stroke-opacity="0.45"/>
+      <text x="112" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#fef3c7">Qwen</text>
+
+      <rect x="148" y="0" width="114" height="26" rx="6" fill="#161b22" stroke="#fbbf24" stroke-opacity="0.45"/>
+      <text x="205" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#fef3c7">FunctionGemma</text>
+
+      <rect x="270" y="0" width="60" height="26" rx="6" fill="#161b22" stroke="#fbbf24" stroke-opacity="0.45"/>
+      <text x="300" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#fef3c7">QLoRA</text>
+
+      <rect x="338" y="0" width="84" height="26" rx="6" fill="#161b22" stroke="#fbbf24" stroke-opacity="0.45"/>
+      <text x="380" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#fef3c7">GGUF CPU</text>
+
+      <rect x="430" y="0" width="66" height="26" rx="6" fill="#161b22" stroke="#fbbf24" stroke-opacity="0.45"/>
+      <text x="463" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#fef3c7">Ollama</text>
+
+      <rect x="0" y="34" width="194" height="26" rx="6" fill="#161b22" stroke="#f59e0b" stroke-opacity="0.55"/>
+      <text x="97" y="51" text-anchor="middle" class="mono" font-size="10.5" fill="#fde68a">&lt;think&gt;/&lt;tool&gt; Injection</text>
+    </g>
+
+    <!-- Category 2: Backend & APIs -->
+    <text x="284" y="194" class="mono" font-size="10" font-weight="700" fill="#ef4444" letter-spacing="1">BACKEND &amp; APIS</text>
+    <g transform="translate(284, 202)">
+      <rect x="0" y="0" width="68" height="26" rx="6" fill="#161b22" stroke="#ef4444" stroke-opacity="0.45"/>
+      <text x="34" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#fee2e2">Python</text>
+
+      <rect x="76" y="0" width="76" height="26" rx="6" fill="#161b22" stroke="#ef4444" stroke-opacity="0.45"/>
+      <text x="114" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#fee2e2">FastAPI</text>
+
+      <rect x="160" y="0" width="96" height="26" rx="6" fill="#161b22" stroke="#ef4444" stroke-opacity="0.45"/>
+      <text x="208" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#fee2e2">SQLAlchemy</text>
+
+      <rect x="264" y="0" width="144" height="26" rx="6" fill="#161b22" stroke="#ef4444" stroke-opacity="0.45"/>
+      <text x="336" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#fee2e2">Java (Spring Boot)</text>
+
+      <rect x="416" y="0" width="142" height="26" rx="6" fill="#161b22" stroke="#ef4444" stroke-opacity="0.45"/>
+      <text x="487" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#fee2e2">C# (ASP.NET Core)</text>
+
+      <rect x="566" y="0" width="48" height="26" rx="6" fill="#161b22" stroke="#ef4444" stroke-opacity="0.45"/>
+      <text x="590" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#fee2e2">C/C++</text>
+    </g>
+
+    <!-- Category 3: Data & Retrieval -->
+    <text x="284" y="254" class="mono" font-size="10" font-weight="700" fill="#38bdf8" letter-spacing="1">DATA &amp; RETRIEVAL</text>
+    <g transform="translate(284, 262)">
+      <rect x="0" y="0" width="98" height="26" rx="6" fill="#161b22" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <text x="49" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#e0f2fe">PostgreSQL</text>
+
+      <rect x="106" y="0" width="68" height="26" rx="6" fill="#161b22" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <text x="140" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#e0f2fe">SQLite</text>
+
+      <rect x="182" y="0" width="84" height="26" rx="6" fill="#161b22" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <text x="224" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#e0f2fe">MongoDB</text>
+
+      <rect x="274" y="0" width="128" height="26" rx="6" fill="#161b22" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <text x="338" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#e0f2fe">ChromaDB (MMR)</text>
+    </g>
+
+    <!-- Category 4: Systems & UI -->
+    <text x="284" y="314" class="mono" font-size="10" font-weight="700" fill="#4ade80" letter-spacing="1">SYSTEMS &amp; UI</text>
+    <g transform="translate(284, 322)">
+      <rect x="0" y="0" width="198" height="26" rx="6" fill="#161b22" stroke="#22c55e" stroke-opacity="0.45"/>
+      <text x="99" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#dcfce7">Linux (Fedora Workstation)</text>
+
+      <rect x="206" y="0" width="76" height="26" rx="6" fill="#161b22" stroke="#22c55e" stroke-opacity="0.45"/>
+      <text x="244" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#dcfce7">systemd</text>
+
+      <rect x="290" y="0" width="124" height="26" rx="6" fill="#161b22" stroke="#22c55e" stroke-opacity="0.45"/>
+      <text x="352" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#dcfce7">Podman / Docker</text>
+
+      <rect x="422" y="0" width="84" height="26" rx="6" fill="#161b22" stroke="#22c55e" stroke-opacity="0.45"/>
+      <text x="464" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#dcfce7">Streamlit</text>
+
+      <rect x="514" y="0" width="100" height="26" rx="6" fill="#161b22" stroke="#22c55e" stroke-opacity="0.45"/>
+      <text x="564" y="17" text-anchor="middle" class="mono" font-size="10.5" fill="#dcfce7">Offline PWA</text>
+    </g>
+  </g>
+
+  <rect x="4" y="4" width="912" height="357" rx="16" fill="none" stroke="#30363d" stroke-width="1.3"/>
+</svg>

@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="380" viewBox="0 0 920 380" role="img" aria-label="Stats from the Grand Line — Marine Wanted Poster and Live Telemetry">
+  <defs>
+    <linearGradient id="statsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#131826"/>
+      <stop offset="100%" stop-color="#1b1414"/>
+    </linearGradient>
+    <linearGradient id="parchmentDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#221b14"/>
+      <stop offset="100%" stop-color="#17120d"/>
+    </linearGradient>
+    <linearGradient id="barGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="barGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#4ade80"/>
+    </linearGradient>
+    <linearGradient id="barPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9333ea"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="barRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <pattern id="gridStats" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.9" fill="#e6edf3" fill-opacity="0.04"/>
+    </pattern>
+    <clipPath id="statsClip">
+      <rect x="4" y="4" width="912" height="372" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+    .serif { font-family: Georgia, 'Times New Roman', serif; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, Menlo, monospace; }
+    @keyframes lanyardSwing {
+      0%, 100% { transform: rotate(-2.2deg); }
+      50% { transform: rotate(2.2deg); }
+    }
+    .lanyard { transform-origin: 122px 4px; animation: lanyardSwing 4.6s ease-in-out infinite; }
+  </style>
+
+  <rect width="920" height="380" fill="#0d1117"/>
+
+  <g clip-path="url(#statsClip)">
+    <rect x="4" y="4" width="912" height="372" rx="16" fill="url(#statsBg)"/>
+    <rect x="4" y="4" width="912" height="372" fill="url(#gridStats)"/>
+
+    <!-- Subtle Gol D. Roger Jolly Roger Watermark (Top-Right) -->
+    <image href="{{IMG_ROGER_FLAG}}" x="816" y="16" width="84" height="76" opacity="0.22" preserveAspectRatio="xMidYMid meet"/>
+
+    <!-- Left Panel: Gently Swinging Marine WANTED Poster Lanyard -->
+    <g class="lanyard">
+      <!-- Red Lanyard Strap from Top Edge -->
+      <path d="M108 0 L118 68 L126 68 L136 0 Z" fill="#dc2626"/>
+      <path d="M114 0 L121 68 L123 68 L130 0 Z" fill="#ef4444" opacity="0.6"/>
+      <!-- Metal Clasp -->
+      <rect x="112" y="64" width="20" height="14" rx="4" fill="#94a3b8" stroke="#475569" stroke-width="1"/>
+      <circle cx="122" cy="71" r="2.5" fill="#0d1117"/>
+
+      <!-- Dark-Parchment Gold-Bordered WANTED Poster -->
+      <rect x="28" y="76" width="188" height="278" rx="10" fill="url(#parchmentDark)" stroke="#fbbf24" stroke-width="1.6"/>
+      <rect x="35" y="83" width="174" height="264" rx="6" fill="none" stroke="#fbbf24" stroke-width="0.7" stroke-opacity="0.45"/>
+
+      <!-- Poster Header -->
+      <text x="122" y="109" text-anchor="middle" class="serif" font-size="23" font-weight="900" fill="#fbbf24" letter-spacing="3">WANTED</text>
+      <line x1="48" y1="116" x2="196" y2="116" stroke="#fbbf24" stroke-width="0.8" stroke-opacity="0.45"/>
+
+      <!-- Emblem Frame -->
+      <rect x="48" y="124" width="148" height="104" rx="6" fill="#0d1117" stroke="#fbbf24" stroke-width="1" stroke-opacity="0.4"/>
+      <image href="{{IMG_STRAW_HAT_FLAG}}" x="68" y="132" width="108" height="88" preserveAspectRatio="xMidYMid meet"/>
+
+      <!-- Poster Details -->
+      <text x="122" y="246" text-anchor="middle" class="serif" font-size="11.5" font-weight="700" fill="#d6b47c" letter-spacing="2.2">DEAD OR ALIVE</text>
+      <text x="122" y="271" text-anchor="middle" class="sans" font-size="18" font-weight="900" fill="#fef3c7" letter-spacing="1">ASIM ANSARI</text>
+      <text x="122" y="297" text-anchor="middle" class="mono" font-size="13.5" font-weight="800" fill="#fbbf24">฿ 3,000,000,000-</text>
+      <line x1="48" y1="308" x2="196" y2="308" stroke="#fbbf24" stroke-width="0.7" stroke-opacity="0.35"/>
+      <text x="122" y="325" text-anchor="middle" class="mono" font-size="8.2" font-weight="600" fill="#94a3b8" letter-spacing="0.9">MARINE HQ // FEDORA FLEET</text>
+      <text x="122" y="339" text-anchor="middle" class="mono" font-size="7.5" fill="#64748b" letter-spacing="0.8">CLASS: EDGE AI ARCHITECT</text>
+    </g>
+
+    <!-- Right Panel Header + Nami Navigator Telemetry Badge -->
+    <g transform="translate(248, 22)">
+      <text x="0" y="16" class="mono" font-size="10.5" font-weight="700" fill="#38bdf8" letter-spacing="1.2">⚓ GRAND LINE TELEMETRY</text>
+      <text x="0" y="46" class="sans" font-size="25" font-weight="800" fill="#f8fafc">Stats from the Grand Line</text>
+    </g>
+
+    <!-- Nami Navigator Mini-Badge -->
+    <rect x="646" y="20" width="158" height="48" rx="10" fill="#161b22" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+    <image href="{{IMG_CHIBI_NAMI}}" x="652" y="23" width="34" height="42" preserveAspectRatio="xMidYMid meet"/>
+    <text x="692" y="39" class="mono" font-size="8.8" font-weight="700" fill="#38bdf8">NAMI LOG POSE</text>
+    <text x="692" y="54" class="mono" font-size="8.2" fill="#94a3b8">AUTO-SYNC :: DAILY</text>
+
+    <!-- 4 Live KPI Boxes -->
+    <g transform="translate(248, 86)">
+      <rect x="0" y="0" width="154" height="66" rx="10" fill="#161b22" stroke="#fbbf24" stroke-width="1.1" stroke-opacity="0.45"/>
+      <text x="14" y="31" class="mono" font-size="20" font-weight="800" fill="#fbbf24">{{KPI_1_VAL}}</text>
+      <text x="14" y="52" class="mono" font-size="9.2" font-weight="600" fill="#94a3b8" letter-spacing="0.7">{{KPI_1_LABEL}}</text>
+
+      <rect x="166" y="0" width="154" height="66" rx="10" fill="#161b22" stroke="#38bdf8" stroke-width="1.1" stroke-opacity="0.45"/>
+      <text x="180" y="31" class="mono" font-size="20" font-weight="800" fill="#38bdf8">{{KPI_2_VAL}}</text>
+      <text x="180" y="52" class="mono" font-size="9.2" font-weight="600" fill="#94a3b8" letter-spacing="0.7">{{KPI_2_LABEL}}</text>
+
+      <rect x="332" y="0" width="154" height="66" rx="10" fill="#161b22" stroke="#4ade80" stroke-width="1.1" stroke-opacity="0.45"/>
+      <text x="346" y="31" class="mono" font-size="20" font-weight="800" fill="#4ade80">{{KPI_3_VAL}}</text>
+      <text x="346" y="52" class="mono" font-size="9.2" font-weight="600" fill="#94a3b8" letter-spacing="0.7">{{KPI_3_LABEL}}</text>
+
+      <rect x="498" y="0" width="154" height="66" rx="10" fill="#161b22" stroke="#c084fc" stroke-width="1.1" stroke-opacity="0.45"/>
+      <text x="512" y="31" class="mono" font-size="20" font-weight="800" fill="#c084fc">{{KPI_4_VAL}}</text>
+      <text x="512" y="52" class="mono" font-size="9.2" font-weight="600" fill="#94a3b8" letter-spacing="0.7">{{KPI_4_LABEL}}</text>
+    </g>
+
+    <!-- Bottom-Left: Haki Mastery Horizontal Progress Bars -->
+    <g transform="translate(248, 168)">
+      <rect width="376" height="190" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="16" y="25" class="mono" font-size="10" font-weight="700" fill="#fbbf24" letter-spacing="1">HAKI MASTERY // CORE FOCUS</text>
+
+      <!-- Bar 1 -->
+      <text x="16" y="49" class="mono" font-size="10" fill="#e2e8f0">Python &amp; FastAPI Backends</text>
+      <text x="360" y="49" text-anchor="end" class="mono" font-size="9.5" fill="#fbbf24">95%</text>
+      <rect x="16" y="55" width="344" height="7" rx="3.5" fill="#0d1117"/>
+      <rect x="16" y="55" width="327" height="7" rx="3.5" fill="url(#barGold)"/>
+
+      <!-- Bar 2 -->
+      <text x="16" y="81" class="mono" font-size="10" fill="#e2e8f0">Edge SLMs &amp; QLoRA Fine-Tuning</text>
+      <text x="360" y="81" text-anchor="end" class="mono" font-size="9.5" fill="#ef4444">92%</text>
+      <rect x="16" y="87" width="344" height="7" rx="3.5" fill="#0d1117"/>
+      <rect x="16" y="87" width="316" height="7" rx="3.5" fill="url(#barRed)"/>
+
+      <!-- Bar 3 -->
+      <text x="16" y="113" class="mono" font-size="10" fill="#e2e8f0">Linux / Fedora / systemd</text>
+      <text x="360" y="113" text-anchor="end" class="mono" font-size="9.5" fill="#4ade80">88%</text>
+      <rect x="16" y="119" width="344" height="7" rx="3.5" fill="#0d1117"/>
+      <rect x="16" y="119" width="303" height="7" rx="3.5" fill="url(#barGreen)"/>
+
+      <!-- Bar 4 -->
+      <text x="16" y="145" class="mono" font-size="10" fill="#e2e8f0">Multimodal Ingestion &amp; RAG</text>
+      <text x="360" y="145" text-anchor="end" class="mono" font-size="9.5" fill="#c084fc">86%</text>
+      <rect x="16" y="151" width="344" height="7" rx="3.5" fill="#0d1117"/>
+      <rect x="16" y="151" width="296" height="7" rx="3.5" fill="url(#barPurple)"/>
+
+      <!-- Bar 5 -->
+      <text x="16" y="175" class="mono" font-size="10" fill="#e2e8f0">C# (ASP.NET) &amp; Java (Spring)</text>
+      <text x="360" y="175" text-anchor="end" class="mono" font-size="9.5" fill="#38bdf8">80%</text>
+      <rect x="16" y="180" width="344" height="5" rx="2.5" fill="#0d1117"/>
+      <rect x="16" y="180" width="275" height="5" rx="2.5" fill="url(#barCyan)"/>
+    </g>
+
+    <!-- Bottom-Right: Current Log Pose Panel -->
+    <g transform="translate(636, 168)">
+      <rect width="264" height="190" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="16" y="25" class="mono" font-size="10" font-weight="700" fill="#38bdf8" letter-spacing="1">CURRENT LOG POSE</text>
+
+      <circle cx="24" cy="54" r="3.5" fill="#fbbf24"/>
+      <text x="36" y="58" class="sans" font-size="12" font-weight="600" fill="#f8fafc">Sub-1B Tool Calling</text>
+      <text x="36" y="72" class="mono" font-size="9" fill="#94a3b8">NanoHat-0.6B · GGUF CPU</text>
+
+      <circle cx="24" cy="96" r="3.5" fill="#4ade80"/>
+      <text x="36" y="100" class="sans" font-size="12" font-weight="600" fill="#f8fafc">Wayland Crash Guards</text>
+      <text x="36" y="114" class="mono" font-size="9" fill="#94a3b8">Fedora · shell=False CLI</text>
+
+      <circle cx="24" cy="138" r="3.5" fill="#c084fc"/>
+      <text x="36" y="142" class="sans" font-size="12" font-weight="600" fill="#f8fafc">Receipt SKU Ledgers</text>
+      <text x="36" y="156" class="mono" font-size="9" fill="#94a3b8">BillProds AI · Offline PWA</text>
+
+      <rect x="16" y="166" width="232" height="16" rx="8" fill="#0d1117" stroke="#22c55e" stroke-opacity="0.45"/>
+      <text x="132" y="177.5" text-anchor="middle" class="mono" font-size="8.8" font-weight="700" fill="#4ade80">● STATUS: SHIPPING FAST</text>
+    </g>
+  </g>
+
+  <rect x="4" y="4" width="912" height="372" rx="16" fill="none" stroke="#30363d" stroke-width="1.3"/>
+</svg>
